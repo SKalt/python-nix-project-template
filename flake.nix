@@ -26,9 +26,8 @@
           buildInputs = with pkgs;
             [
               # python tools
-              python311
-              poetry
-              ruff-lsp
+              python313
+              uv
 
               # nix support
               nixpkgs-fmt

@@ -10,7 +10,7 @@ repos:
     - id: check-added-large-files
 - repo: https://github.com/charliermarsh/ruff-pre-commit
   # Ruff version.
-  rev: 'v0.0.286'
+  rev: 'v0.12.1'
   hooks:
     - id: ruff
 # TODO: add a mypy typechecking hook
